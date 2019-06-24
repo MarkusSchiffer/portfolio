@@ -1,0 +1,67 @@
+h1 {
+  color: magenta;
+  font-weight: bold;
+}
+h2 {
+  color: #248738;
+  font-weight: lighter;
+  background-color: #ef9799;
+}
+h3 {
+  color: #c59bf2;
+  font-weight: bold;
+  background-color: yellow;
+}
+h4 {
+  color: #42bf15;
+  font-weight: bold;
+  background-color: inherit;
+}
+body {
+  background-color: #91fff9;
+}
+p {
+  color: dodgerblue;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: inherit;
+}
+img {
+  border-style: dashed;
+  border-color: blue;
+  border-width: 3px;
+  background-color: white;
+}
+ul {
+  color: red;
+  background-color: #b7f2a2;
+}
+.highlight:hover {
+  color: black;
+  background-color: yellow;
+}
+.exclaim {
+  color: magenta;
+  font-weight: bolder;
+  background-color: black;
+}
+#galatic-theme {
+  color: #c4bd38;
+  background-color: #842191;
+}
+#galatic-img {
+  border-style: dashed;
+  border-color: #c4bd38;
+  border-width: 5px;
+  background-color: #842191;
+}
+#jungle-theme {
+  color: #25ba56;
+  background-color: #f2e23a;
+}
+#jungle-art {
+  border-style: groove;
+  border-color: #25ba56;
+  border-width: 10px;
+  background-color: black;
+}
