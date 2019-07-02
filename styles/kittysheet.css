@@ -1,0 +1,102 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+header {
+  color: white;
+  background-color: #4396ba;
+  padding: 5rem 3rem 3rem 12rem;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+h2 {
+  width: 20rem;
+  font-weight: normal;
+  margin: 0;
+}
+h3 {
+  color: #344042;
+  font-size: 1.5rem;
+  position: static;
+}
+h4 {
+  color: #19a6c2;
+  font-size: 20px;
+  font-weight: bold;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  position: static;
+}
+section {
+  position: static;
+  padding: 1rem 3rem 0rem 3rem;
+  width: 41rem;
+}
+aside {
+  position: absolute;
+  top: 20rem;
+  left: 55rem;
+}
+p {
+  line-height: 25px;
+}
+figure {
+  position: relative;
+  right: 3rem;
+}
+figcaption {
+  width: 17rem;
+}
+footer {
+  margin-top: 5rem;
+  color: white;
+  background-color: #344042;
+  text-align: center;
+  padding: 4rem 0rem 3rem 0rem;
+}
+#top-nav {
+  color: black;
+  background-color: #cad4d9;
+  padding: 1.5rem 1rem 1.5rem 12rem;
+  margin: 0;
+}
+#lower-nav {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#header-links {
+  color: black;
+}
+#body-links {
+  color: #a5e5f2;
+}
+#footer-links {
+  color: white;
+}
+#main-section {
+  font-size: 15px;
+  color: #344042;
+}
+#review-section {
+  color: lightblue;
+  font-size: 22px;
+  width: 40rem;
+}
+#aside-section {
+  width: 19rem;
+}
+#footer-text {
+  width: 27rem;
+  margin: 0 auto;
+}
+.reg-alligned {
+  padding-left: 12rem;
+}
+.extra-low-margin {
+  margin-bottom: 2rem;
+}
