@@ -33,7 +33,6 @@ footer {
 p {
   color: dodgerblue;
   font-size: 16px;
-  /*font-weight: normal;*/
   background-color: inherit;
   font-family: 'Arimo', sans-serif;
 }
@@ -47,6 +46,19 @@ ul {
   color: red;
   background-color: #b7f2a2;
 }
+article {
+  transition: border, 1.5s, 1.5s;
+}
+a {
+  transition: 0.5s;
+}
+.navbox i:nth-child(4n) {
+  color: red;
+}
+a:hover {
+  color: #fc86dd;
+  font-style: italic;
+}
 .fa-handshake {
   color: orange;
 }
@@ -56,6 +68,9 @@ ul {
 .highlight:hover {
   color: black;
   background-color: yellow;
+}
+article.box:hover {
+  border: 25px solid #c8facc;
 }
 .exclaim {
   color: magenta;
