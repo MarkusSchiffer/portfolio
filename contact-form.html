@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/contactsheet.css">
+  </head>
+  <body>
+
+    <header>
+
+      <h1>Contact Me Here!</h1>
+      <nav>
+        <h2>Navigation</h2>
+        <a href="index.html">Home</a>
+        <br>
+        <br>
+      </nav>
+
+    </header>
+
+    <form method="get">
+
+      <label>Your name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Your email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label>What is your reason for contacting me?
+        <select name="applicantReason">
+          <option value="">Please select</option>
+          <option value="complain">to complain</option>
+          <option value="job">to offer a job</option>
+          <option value="compliment">to compliment me</option>
+          <option value="enlighten">to offer some worthless knowledge</option>
+        </select>
+      </label>
+
+      <fieldset class="bubble">
+        <legend>Opinion poll: The Earth is:</legend>
+        <label>
+          <input type="radio" name="opinion" value="flat">flat
+        </label>
+        <label>
+          <input type="radio" name="opinion" value="round">round
+        </label>
+      </fieldset>
+
+      <label>You will only recieve a response if you know the magic number:
+        <input type="number" name="magic">
+      </label>
+
+      <input type="submit" value="Submit">
+
+    </form>
+
+  </body>
+
+</html>
