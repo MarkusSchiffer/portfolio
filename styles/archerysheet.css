@@ -46,7 +46,7 @@ footer {
     flex-direction: row;
     flex-flow: column wrap;
     padding: 0rem 10rem 0 10rem;
-    color: #ecb722;
+    color: #FCEEC5;
 }
 .container {
   display: flex;
@@ -139,4 +139,21 @@ footer {
   background-color: #1b447f;
   display: flex;
   justify-content: center;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  color: #03a3df;
+}
+.hidden:focus {
+  left: 0;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
