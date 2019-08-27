@@ -26,6 +26,9 @@ h4 {
   font-size: 20px;
   font-weight: bold;
 }
+h5 {
+  font-size: 0;
+}
 a {
   font-weight: bold;
   text-decoration: none;
@@ -73,16 +76,16 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-#header-links {
+.header-links {
   color: black;
 }
-#body-links {
+.body-links {
   color: #147F94;
 }
-#footer-links {
+.footer-links {
   color: white;
 }
-#main-section {
+.main-section {
   font-size: 15px;
   color: #344042;
 }
@@ -91,7 +94,7 @@ footer {
   font-size: 22px;
   width: 40rem;
 }
-#aside-section {
+.aside-section {
   width: 19rem;
 }
 #footer-text {
